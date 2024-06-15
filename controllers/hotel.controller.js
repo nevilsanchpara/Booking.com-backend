@@ -3,6 +3,7 @@ const multer = require("multer");
 
 class HotelController {
   async createHotel(req, res) {
+    console.log(req.body);
     try {
       const {
         name,

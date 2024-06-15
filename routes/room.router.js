@@ -28,7 +28,7 @@ const upload = multer({
   },
 }).array("images", 5);
 
-router.post("/", upload, roomController.createRoom);
+router.post("/", roomController.createRoom);
 router.get("/", roomController.getAllRooms);
 router.get("/:roomId", roomController.getRoom);
 router.put("/:roomId", roomController.updateRoom);

@@ -48,8 +48,8 @@ class BookingController {
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card"],
       mode: "payment",
-      success_url: "http://localhost:3000",
-      cancel_url: "http://localhost:3000",
+      success_url: "https://booking-com-frontend.onrender.com/",
+      cancel_url: "https://booking-com-frontend.onrender.com/",
       line_items,
     });
 

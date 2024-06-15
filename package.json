@@ -1,0 +1,37 @@
+{
+  "name": "booking-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.12.1",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "chalk": "^5.3.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "graphql": "^16.8.1",
+    "graphql-tools": "^9.0.0",
+    "jsonwebtoken": "^9.0.1",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.3.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "razorpay": "^2.9.0",
+    "stripe": "^12.18.0"
+  }
+}

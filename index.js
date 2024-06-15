@@ -13,13 +13,6 @@ const corsOptions = {
   credentials: true,
   optionSuccessStatus: 200,
 };
-// app.use(cors(corsOptions));
-// app.use(express.json());
-// app.use("/api/payment", bookingRoutes);
-// app.use("/api/hotel", hotelRoutes);
-// app.use("/api/review", reviewRoutes);
-// app.use("/api/room", roomRoutes);
-// app.use("/api/user", userRoutes);
 
 app.get("/", (req, res) => {
   res.send("Hello");

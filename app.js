@@ -17,7 +17,7 @@ const corsOptions = {
 // app.use(express.json());
 // app.use("/api/payment", bookingRoutes);
 // app.use("/api/hotel", hotelRoutes);
-// // app.use("/api/review", reviewRoutes);
+// app.use("/api/review", reviewRoutes);
 // app.use("/api/room", roomRoutes);
 // app.use("/api/user", userRoutes);
 

@@ -17,7 +17,6 @@ app.use(cors(corsOptions));
 app.use(express.json());
 app.use("/api/payment", bookingRoutes);
 app.use("/api/hotel", hotelRoutes);
-app.use("/api/review", reviewRoutes);
 app.use("/api/room", roomRoutes);
 app.use("/api/user", userRoutes);
 
@@ -25,7 +24,7 @@ app.get("/", (req, res) => {
   res.send("Hello");
 });
 
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT || 8000, () => {
   connectToDatabase();
   console.log(`Server is running on port ${process.env.PORT}`);
 });

@@ -21,7 +21,7 @@ app.use("/api/hotel", hotelRoutes);
 app.use("/api/room", roomRoutes);
 app.use("/api/user", userRoutes);
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 5000, () => {
   connectToDatabase();
   console.log(`Server is running on port ${process.env.PORT}`);
 });
